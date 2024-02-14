@@ -17,7 +17,7 @@
 <body class="font-poppins">
     <main class="min-h-screen bg-[#010313] bg-[url(images/background.png)] bg-no-repeat bg-center">
         <!-- home screen -->
-        <section class="home text-white min-h-screen flex flex-col justify-center items-center">
+        <section id="home-screen" class="text-white min-h-screen flex flex-col justify-center items-center">
             <div class="flex flex-col items-center gap-10">
                 <h1 class="font-anton uppercase text-8xl">Alphabet Clash</h1>
             <p>Unleash Your Keyboard Kung Fu : Press “Enter” to Play</p>
@@ -25,7 +25,7 @@
             </div>
         </section>
         <!-- playground start -->
-        <section class="play-ground pt-20 hidden">
+        <section id="play-ground" class="pt-20 hidden">
             <div class="flex flex-col items-center gap-20">
                 <!-- screen -->
                 <div class="artboard artboard-horizontal phone-6 border-[20px] rounded-2xl border-[#010313CC] bg-[#FFFFFFB3]">
@@ -104,6 +104,8 @@
             </div>
         </section>
     </main>
+    <script src="scripts/utility.js"></script>
     <script src="scripts/alpha-clash.js"></script>
+    
 </body>
 </html>
